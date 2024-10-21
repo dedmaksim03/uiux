@@ -1,38 +1,41 @@
 .header {
-    background-color: #dbdbdb;
-    padding: 15px;
-    display: flex;
-  }
-  .navList {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-  }
-  .navItem {
-    margin-right: 15px;
-    display: flex;
-    flex-direction: row;
-  }
-  .navItem button {
-    background: none;
-    border: none;
-    color: #333;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 0px 80px;
-  }
-  .navItem button:hover {
-    text-decoration: underline;
-  }
-  
-  .h3 {
-  }
-  
-  .label {
-    align-self: center;
-    margin-right: 50px;
-  }
-  
+  background-color: #dbdbdb;
+  padding: 5px;
+  display: flex;
+  /* flex-grow: 1; */
+}
+.navList {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.navItem {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.navItem button {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0px 80px;
+}
+.navItem button:hover {
+  text-decoration: underline;
+}
+
+.label {
+  align-self: center;
+  margin-right: 50px;
+  height: 45px;
+}
+
+.svg_element {
+  width: 35px;
+  height: 35px;
+}

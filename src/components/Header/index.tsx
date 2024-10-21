@@ -10,22 +10,22 @@ export const Header = () => {
         <ul className={styles.navItem}>
           <li className={styles.navItem}>
             <button onClick={() => navigate('/home')}>
-              <img src="../public/page_budget.svg" />
+              <img className={styles.svg_element} src="../public/page_budget.svg" />
             </button>
           </li>
           <li className={styles.navItem}>
             <button onClick={() => navigate('/')}>
-              <img src="../public/page_diagram.svg" />
+              <img className={styles.svg_element} src="../public/page_diagram.svg" />
             </button>
           </li>
           <li className={styles.navItem}>
             <button onClick={() => navigate('/home')}>
-              <img src="../public/page_list_expenses.svg" />
+              <img className={styles.svg_element} src="../public/page_list_expenses.svg" />
             </button>
           </li>
           <li className={styles.navItem}>
             <button onClick={() => navigate('/')}>
-              <img src="../public/page_list.svg" />
+              <img className={styles.svg_element} src="../public/page_list.svg" />
             </button>
           </li>
         </ul>

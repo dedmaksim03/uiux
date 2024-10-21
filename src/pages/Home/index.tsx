@@ -1,7 +1,27 @@
 import style from './home.module.css';
 
 function Home() {
-  return <h1 className={style.h1}>HomePage</h1>;
+  return (
+    <div className={style.container}>
+      <div className={style.column_left}>
+        <div className={style.diagram_container}>
+          <div className={style.inner_diagram_container}>
+            <p className={style.p_center}> Расходы </p>
+            <p> 1024 ₽</p>
+            <p> 720 ₽</p>
+          </div>
+        </div>
+      </div>
+      <div className={style.column_right}>
+        <div className={style.categories_container}>
+          <p> элемент </p>
+          <p> элемент </p>
+          <p> элемент </p>
+          <p> элемент </p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Home;

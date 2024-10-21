@@ -1,5 +1,55 @@
 .h1 {
-    display: flex;
-    justify-content: center;
-  }
-  
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.column_right {
+  float: right;
+  border: black solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.column_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.diagram_container {
+  display: flex;
+  height: 350px;
+  width: 350px;
+  justify-content: center;
+  border: black solid;
+  border-radius: 100%;
+}
+
+.inner_diagram_container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.categories_container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.p_center {
+  font-size: large;
+}

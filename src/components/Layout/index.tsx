@@ -1,15 +1,12 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
+import styles from './layout.module.css';
 
 interface Props {
-    children?: ReactNode
-    // any props that come into the component
+  children?: ReactNode;
+  // any props that come into the component
 }
 
-const Layout = ({ children }:Props) => {
-    return (
-    <div style={{ minHeight: '100vh', width: '100%', backgroundColor: '#f9f9f9' }}>
-    {children}
-    </div>
-    );
-   };
-   export default Layout;
+const Layout = ({ children }: Props) => {
+  return <div className={styles.layout}>{children}</div>;
+};
+export default Layout;
