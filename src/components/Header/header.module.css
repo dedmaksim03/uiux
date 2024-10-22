@@ -1,20 +1,31 @@
 .header {
   background-color: #dbdbdb;
-  padding: 5px;
-  display: flex;
-  /* flex-grow: 1; */
 }
-.navList {
+.header_inner {
   display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   justify-content: center;
   align-items: center;
 }
-.navItem {
-  margin-right: 15px;
+.h3{
+}
+.navContainer{
+  flex-grow: 1;
+}
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navItems{
   display: flex;
+  list-style-type: none;
+}
+.navItem {
+  margin-right: 25px;
+  margin-left: 25px;
   flex-direction: row;
 }
 .navItem button {
@@ -23,15 +34,16 @@
   color: #333;
   font-size: 16px;
   cursor: pointer;
-  margin: 0px 80px;
+  margin: 0px;
 }
 .navItem button:hover {
   text-decoration: underline;
 }
 
+.header_container_left{
+  flex-grow: 1;
+}
 .label {
-  align-self: center;
-  margin-right: 50px;
   height: 45px;
 }
 

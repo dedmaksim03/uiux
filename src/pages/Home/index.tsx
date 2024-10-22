@@ -14,10 +14,86 @@ function Home() {
       </div>
       <div className={style.column_right}>
         <div className={style.categories_container}>
-          <p> элемент </p>
-          <p> элемент </p>
-          <p> элемент </p>
-          <p> элемент </p>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
+          <div className={style.category_container}> 
+            <p className={style.name_category}> Продукты </p> 
+            <div className={style.category}></div>
+            <p className={style.sum_category}> 1024 ₽</p>
+          </div>
         </div>
       </div>
     </div>

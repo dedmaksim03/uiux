@@ -5,7 +5,9 @@
 
 .container {
   display: flex;
-  flex-grow: 1;
+  /* height: 90vh; */
+  /* flex-grow: 2;*/
+  height: 800px; 
 }
 
 .column_right {
@@ -44,12 +46,37 @@
 }
 
 .categories_container {
+  overflow-y: scroll;
+  width: 90%;
+  height: 90%;
   display: grid;
   justify-content: center;
   align-items: center;
   padding: 20px;
+  grid-template-columns: repeat(auto-fit, 150px);
+  grid-auto-flow: dense;
 }
 
-.p_center {
-  font-size: large;
+.category {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #f74e42;
+}
+
+.category_container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.name_category {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.sum_category {
+  margin: 0;
+  margin-top: 5px;
 }
