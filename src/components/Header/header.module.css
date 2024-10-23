@@ -9,8 +9,6 @@
   justify-content: center;
   align-items: center;
 }
-.h3{
-}
 .navContainer{
   flex-grow: 1;
 }
@@ -44,10 +42,10 @@
   flex-grow: 1;
 }
 .label {
-  height: 45px;
+  height: 70px;
 }
 
 .svg_element {
-  width: 35px;
-  height: 35px;
+  width: 60px;
+  height: 60px;
 }
