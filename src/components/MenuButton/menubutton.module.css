@@ -1,0 +1,11 @@
+.style_in_url {
+  width: 60px;
+  height: 60px;
+  fill: rgb(0, 0, 0);
+}
+
+.style_out_url {
+  width: 60px;
+  height: 60px;
+  fill: rgb(129, 129, 129);
+}

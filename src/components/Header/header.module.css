@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
 }
-.navContainer{
+.navContainer {
   flex-grow: 1;
 }
 .navList {
@@ -17,7 +17,7 @@
   margin: 0;
   padding: 0;
 }
-.navItems{
+.navItems {
   display: flex;
   list-style-type: none;
 }
@@ -38,7 +38,7 @@
   text-decoration: underline;
 }
 
-.header_container_left{
+.header_container_left {
   flex-grow: 1;
 }
 .label {
@@ -48,4 +48,10 @@
 .svg_element {
   width: 60px;
   height: 60px;
+}
+
+.svg_element {
+  width: 60px;
+  height: 60px;
+  /* fill: aqua; */
 }
