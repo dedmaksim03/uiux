@@ -1,0 +1,22 @@
+.category {
+  height: 110px;
+  width: 110px;
+  border-radius: 100%;
+  background-color: #f74e42;
+}
+
+.category_container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.name_category {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.sum_category {
+  margin: 0;
+  margin-top: 5px;
+}
