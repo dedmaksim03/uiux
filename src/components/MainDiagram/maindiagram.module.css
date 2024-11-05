@@ -3,16 +3,9 @@
   height: 550px;
   width: 550px;
   justify-content: center;
-  /* border: #f74e42 solid; */
-  /* border-width: 20px; */
-  /* border-radius: 100%; */
 }
 
 .inner_diagram_container {
-  /* justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  display: flex; */
   display: block;
   margin: 0;
 }

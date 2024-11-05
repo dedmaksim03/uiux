@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Продукты",
+        "categoryType": "Расход",
+        "sumCategory": 900.0,
+        "categoryColor": "rgba(214, 64, 53, 1)"
+    },
+    {
+        "id": 3,
+        "name": "Нужды",
+        "categoryType": "Расход",
+        "sumCategory": 510.0,
+        "categoryColor": "rgba(89, 210, 204, 1)"
+    },
+    {
+        "id": 5,
+        "name": "Кафе",
+        "categoryType": "Расход",
+        "sumCategory": 0.0,
+        "categoryColor": "rgba(91, 207, 87, 1)"
+    },
+    {
+        "id": 4,
+        "name": "Поездки",
+        "categoryType": "Расход",
+        "sumCategory": 1200.0,
+        "categoryColor": "rgba(215, 222, 79, 1)"
+    }
+]

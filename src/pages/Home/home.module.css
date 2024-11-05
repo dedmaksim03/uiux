@@ -47,5 +47,5 @@
   grid-template-columns: repeat(auto-fit, 150px);
   grid-auto-flow: dense;
   column-gap: 20px;
-  row-gap: 20px;
+  row-gap: 50px;
 }

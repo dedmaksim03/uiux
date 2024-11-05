@@ -14,9 +14,18 @@
 
 .name_category {
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
+  font-size: 20px;
 }
 .sum_category {
   margin: 0;
-  margin-top: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.sum_category_zero {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(81, 81, 81);
 }
