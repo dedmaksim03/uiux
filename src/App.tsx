@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import Layout from './components/Layout';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './global.css';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Layout>
         <Header />
         <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/*" element={<Error />} />
+          {/* <Route path="/home" element={<Home />} />
+          <Route path="/*" element={<Error />} /> */}
+          <Route path="/*" element={<LoginPage />}/>
         </Routes>
       </Layout>
     </BrowserRouter>
