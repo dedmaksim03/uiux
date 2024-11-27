@@ -5,8 +5,13 @@ import { ButtonBudget } from '../Buttons_header/ButtonBudget';
 import { ButtonList } from '../Buttons_header/ButtonList';
 import { ButtonStats } from '../Buttons_header/ButtonStats';
 import { MenuButton } from '../MenuButton';
+import Store from '../../store';
+import { useEffect } from 'react';
 
-export const Header = () => {
+export const Header = ({ username }: { username: string }) => {
+  // useEffect(() => {
+  //   store.getData();
+  // }, []);
   const navigate = useNavigate();
   return (
     <header className={styles.header}>
@@ -40,7 +45,7 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
-        <h3 className={styles.h3}>username</h3>
+        <h3 className={styles.h3}>{username}</h3>
       </div>
     </header>
   );

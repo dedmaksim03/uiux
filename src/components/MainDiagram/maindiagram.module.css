@@ -1,8 +1,9 @@
 .diagram_container {
   display: flex;
-  height: 550px;
-  width: 550px;
+  height: 450px;
+  width: 450px;
   justify-content: center;
+  align-items: center;
 }
 
 .inner_diagram_container {

@@ -9,7 +9,7 @@ import { useContext, useEffect } from 'react';
 import { Context } from './main';
 import { observer } from 'mobx-react-lite';
 
-function App() {
+const App = () => {
   const { store } = useContext(Context);
 
   useEffect(() => {
@@ -18,26 +18,21 @@ function App() {
     }
   }, []);
 
+  if (!store.isAuth) {
+    return <LoginPage />;
+  }
+
   return (
     <BrowserRouter>
       <Layout>
-        <Header />
+        <Header username={store.username} />
         <Routes>
-          {/* <Route path="/home" element={<Home />} />
-          <Route path="/*" element={<Error />} /> */}
-          <Route
-            path="/*"
-            element={
-              <div>
-                <h1> {store.isAuth ? `Авторизован ${localStorage.getItem('token')}` : 'Авторизуйтесь'}</h1>
-                <LoginPage />
-              </div>
-            }
-          />
+          <Route path="/home" element={<Home store={store} />} />
+          <Route path="/*" element={<Error />} />
         </Routes>
       </Layout>
     </BrowserRouter>
   );
-}
+};
 
 export default observer(App);
