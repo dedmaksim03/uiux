@@ -25,9 +25,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Layout>
-        <Header username={store.username} />
+        <Header />
         <Routes>
-          <Route path="/home" element={<Home store={store} />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/*" element={<Error />} />
         </Routes>
       </Layout>

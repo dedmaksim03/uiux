@@ -1,3 +1,5 @@
+import { CategoryResponse } from "./CategoryResponse";
+
 export interface CategoriesResponse {
-  categories: Array<never>;
+  categories: Array<CategoryResponse>;
 }
