@@ -55,8 +55,8 @@ export const Header = () => {
                   </button>
                 </li>
                 <li className={styles.navItem}>
-                  <button onClick={() => navigate('/list')}>
-                    <MenuButton url="/list" Icon={ButtonList} />
+                  <button onClick={() => navigate('/actions')}>
+                    <MenuButton url="/actions" Icon={ButtonList} />
                   </button>
                 </li>
                 <li className={styles.navItem}>

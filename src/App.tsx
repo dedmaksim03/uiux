@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage';
 import { useContext, useEffect } from 'react';
 import { Context } from './main';
 import { observer } from 'mobx-react-lite';
+import ActionsListPage from './pages/ListPage';
 
 const App = () => {
   const { store } = useContext(Context);
@@ -28,6 +29,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/home" element={<Home />} />
+          <Route path="/actions" element={<ActionsListPage />} />
           <Route path="/*" element={<Error />} />
         </Routes>
       </Layout>

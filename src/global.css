@@ -4,7 +4,11 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Helvetica', sans-serif;
+  @font-face {
+    font-family: 'Jomolhari';
+    src: url('/fonts/Jomolhari-Regular.ttf') format('ttf');
+  };
+  /* font-family: 'Jomolhari', sans-serif; */
   display: flex;
 }
 #root {
@@ -13,4 +17,7 @@ body {
 }
 body {
   background-color: #ffffff;
+  font-family: 'Jomolhari', sans-serif;
+  
+  letter-spacing: 0.5px;
 }
