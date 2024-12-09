@@ -14,14 +14,14 @@
   border-top: none;
   border-bottom: none;
   border-right: none;
-  width: 34%;
+  width: 45%;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 .column_left {
-  width: 66%;
+  width: 55%;
 }
 
 .con_diagram {
