@@ -1,12 +1,12 @@
 export interface ActionResponse {
-  id: number;
-  date: Date;
-  sum: number;
-  message: string;
-  categoryId: number;
-  category: string;
-  categoryColor: string;
-  accountId: number;
-  account: string;
-  userId: number | null;
+  id: number | null;
+  date: Date | undefined;
+  sum: number | undefined;
+  message: string | undefined;
+  categoryId: number | undefined;
+  category: string | undefined | null;
+  categoryColor: string | undefined | null;
+  accountId: number | undefined;
+  account: string | undefined | null;
+  userId: number | null | null;
 }

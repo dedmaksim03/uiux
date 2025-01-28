@@ -5,12 +5,11 @@
 
 .container {
   display: flex;
-  flex: 1;
 }
 
 .column_right {
   float: right;
-  border: black solid;
+  border: 3px rgb(132, 132, 132) solid;
   border-top: none;
   border-bottom: none;
   border-right: none;
@@ -22,6 +21,8 @@
 
 .column_left {
   width: 55%;
+  margin-top: 3vh;
+  height: 87vh;
 }
 
 .con_diagram {

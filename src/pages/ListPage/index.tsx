@@ -5,6 +5,9 @@ import Slider from '../../components/Slider';
 import { ReactElement, useEffect, useState } from 'react';
 import { getActions } from '../../services/GetDataService';
 import { ActionResponse } from '../../models/response/ActionResponse';
+import InputNewAction from '../../components/InputNewAction';
+import { addNewAction } from '../../services/SetDataService';
+import { test } from './test';
 
 const ActionsListPage = () => {
   const actionsMap = new Map<Date, { element: ReactElement[]; sum: number }>();
@@ -76,6 +79,9 @@ const ActionsListPage = () => {
         <div className={styles.left_container}>
           <div className={styles.con_slider}>
             <Slider />
+            <div className={styles.inputNewAction}>
+              <InputNewAction _getActions={_getActions} />
+            </div>
           </div>
         </div>
         <div className={styles.right_container}>
